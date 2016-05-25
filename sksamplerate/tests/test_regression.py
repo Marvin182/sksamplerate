@@ -1,6 +1,6 @@
 import numpy as np
 from numpy.testing import *
-from scikits.samplerate import resample
+from sksamplerate import resample
 
 def test_mono():
     fs = 16000.
